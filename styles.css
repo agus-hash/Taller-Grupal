@@ -15,9 +15,10 @@ h1 {
 
 
 .image {
-    border: 5px solid green; /* Borde verde */
-    border-radius: 10px; /* Bordes redondeados */
-    height: 400px; /* Altura fija */
+
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    height: 400px;
 }
 
 
