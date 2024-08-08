@@ -1,19 +1,31 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(255, 255, 165); 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+h1 {
+    font-size: 2.5em; 
+    font-style: italic;
+    color: white; 
+    margin: 0; }
+
+
+.image {
+    border: 5px solid green; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    height: 400px; /* Altura fija */
 }
+
 
 .link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Color del texto */
+    border: 1px solid gray; /* Borde gris */
+    background-color: #f2f2f2; /* Fondo gris claro */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 3px #888888; /* Sombra del cuadro */
 }
